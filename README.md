@@ -11,9 +11,9 @@ This repository contains implementation of some deep neural networks by Keras.
 LeNet-5 was one of the earliest convolutional neural networks and promoted the development of deep learning. Since 1988,
 after years of research and many successful iterations, the pioneering work has been named LeNet-5.
 
-![LeNet-5 Architecture](lenet_5/images/lenet_5.jpg)
-
 [Read more](lenet_5)...
+
+![LeNet-5 Architecture](lenet_5/images/lenet_5.jpg)
 
 ## Datasets
 
