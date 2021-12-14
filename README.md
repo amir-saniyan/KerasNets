@@ -19,11 +19,17 @@ after years of research and many successful iterations, the pioneering work has 
 
 ### MNIST
 
-The MNIST database of handwritten digits, available from http://yann.lecun.com/exdb/mnist/, has a training set of 60,000
-examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been
-size-normalized and centered in a fixed-size image.
+The MNIST database of handwritten digits, has a training set of 60000 examples, and a test set of 10000 examples.
+It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
 
 ![MNIST Sample](images/mnist_sample.jpg)
+
+### CIFAR-10
+
+The CIFAR-10 dataset consists of 60000 32x32 color images in 10 classes, with 6000 images per class.
+There are 50000 training images and 10000 test images.
+
+![CIFAR-10 Sample](images/cifar_10_sample.jpg)
 
 ## Pre-trained Models
 
@@ -59,3 +65,4 @@ SOFTWARE.
 
 * LeNet-5: http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf
 * MNIST Dataset: http://yann.lecun.com/exdb/mnist/
+* CIFAR-10 Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
