@@ -164,7 +164,7 @@ To launch TensorBoard, run the following command:
 | ...   | ...    | ...      | ...        | ...            |
 | 50    | 0.0035 | 0.9997   | 0.1259     | 0.9788         |
 
-## Evaluation
+## Evaluating
 
 To evaluate the network with MNIST dataset, run the following command:
 
@@ -200,7 +200,7 @@ optional arguments:
                         Path to load the model
 ```
 
-**Evaluation Results**:
+**Evaluating Results**:
 
 | Loss   | Accuracy |
 |--------|----------|
