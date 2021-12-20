@@ -47,6 +47,7 @@ There are 50000 training images and 10000 test images.
 You can download pre-trained models from [this page](https://github.com/amir-saniyan/KerasNets/releases/tag/pre-trained-models):
 
 * [Download LeNet-5 Pre-trained Model](https://github.com/amir-saniyan/KerasNets/releases/download/pre-trained-models/lenet_5.zip)
+* [Download AlexNet Pre-trained Model](https://github.com/amir-saniyan/KerasNets/releases/download/pre-trained-models/alexnet.zip)
 
 ## License
 
