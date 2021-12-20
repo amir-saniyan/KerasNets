@@ -15,6 +15,17 @@ after years of research and many successful iterations, the pioneering work has 
 
 ![LeNet-5 Architecture](lenet_5/images/lenet_5.jpg)
 
+### AlexNet
+
+AlexNet competed in the ImageNet Large Scale Visual Recognition Challenge on September 30, 2012. The network achieved a top-5
+error of 15.3%, more than 10.8 percentage points lower than that of the runner up. The original paper's primary result
+was that the depth of the model was essential for its high performance, which was computationally expensive, but made
+feasible due to the utilization of graphics processing units (GPUs) during training.
+
+[Read more](alexnet)...
+
+![AlexNet Architecture](alexnet/images/alexnet.jpg)
+
 ## Datasets
 
 ### MNIST
