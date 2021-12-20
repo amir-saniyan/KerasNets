@@ -40,7 +40,13 @@ def main():
     logs_path = args.logs_path
     model_path = args.model_path
 
-    model = lenet_5.build_model(input_shape=input_shape)
+    training_dataset, validation_dataset = get_training_dataset(directory=train_directory, batch_size=batch_size,
+                                                                image_size=input_image_size, shuffle=shuffle, seed=seed,
+                                                                validation_split=validation_split)
+
+    num_classes = len(training_dataset.class_names)
+
+    model = lenet_5.build_model(input_shape=input_shape, num_classes=num_classes)
 
     optimizer = tf.keras.optimizers.SGD(learning_rate=learning_rate)
 
@@ -52,10 +58,6 @@ def main():
     model.compile(optimizer=optimizer, loss=loss, metrics=metrics)
 
     model.summary()
-
-    training_dataset, validation_dataset = get_training_dataset(directory=train_directory, batch_size=batch_size,
-                                                                image_size=input_image_size, shuffle=shuffle, seed=seed,
-                                                                validation_split=validation_split)
 
     tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=logs_path)
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(filepath=model_path, monitor='val_loss', verbose=1,
