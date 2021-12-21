@@ -76,5 +76,6 @@ SOFTWARE.
 ## Resources
 
 * LeNet-5: http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf
+* AlexNet: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
 * MNIST Dataset: http://yann.lecun.com/exdb/mnist/
 * CIFAR-10 Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
