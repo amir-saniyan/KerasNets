@@ -11,32 +11,34 @@ This directory contains implementation of LeNet-5 (Handwritten Character Recogni
 **Model Summary**:
 
 ```
+_________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- input_1 (InputLayer)        [(None, 28, 28, 1)]       0         
+ input_1 (InputLayer)        [(None, 32, 32, 1)]       0         
                                                                  
- conv2d (Conv2D)             (None, 24, 24, 6)         156       
+ conv2d (Conv2D)             (None, 28, 28, 6)         156       
                                                                  
- max_pooling2d (MaxPooling2D  (None, 12, 12, 6)        0         
+ max_pooling2d (MaxPooling2D  (None, 14, 14, 6)        0         
  )                                                               
                                                                  
- conv2d_1 (Conv2D)           (None, 8, 8, 16)          2416      
+ conv2d_1 (Conv2D)           (None, 10, 10, 16)        2416      
                                                                  
- max_pooling2d_1 (MaxPooling  (None, 4, 4, 16)         0         
+ max_pooling2d_1 (MaxPooling  (None, 5, 5, 16)         0         
  2D)                                                             
                                                                  
- flatten (Flatten)           (None, 256)               0         
+ flatten (Flatten)           (None, 400)               0         
                                                                  
- dense (Dense)               (None, 120)               30840     
+ dense (Dense)               (None, 120)               48120     
                                                                  
  dense_1 (Dense)             (None, 84)                10164     
                                                                  
  dense_2 (Dense)             (None, 10)                850       
                                                                  
 =================================================================
-Total params: 44,426
-Trainable params: 44,426
+Total params: 61,706
+Trainable params: 61,706
 Non-trainable params: 0
+_________________________________________________________________
 ```
 
 ## Dataset
