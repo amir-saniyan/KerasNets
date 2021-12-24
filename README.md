@@ -26,7 +26,7 @@ made feasible due to the utilization of graphics processing units (GPUs) during 
 
 ![AlexNet Architecture](alexnet/images/alexnet.jpg)
 
-# VGG
+### VGG
 
 VGG is a classical convolutional neural network architecture. It was based on an analysis of how to increase the depth
 of such networks. The network utilises small 3 x 3 filters. Otherwise, the network is characterized by its simplicity:
