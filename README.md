@@ -17,37 +17,49 @@ after years of research and many successful iterations, the pioneering work has 
 
 ### AlexNet
 
-AlexNet competed in the ImageNet Large Scale Visual Recognition Challenge on September 30, 2012. The network achieved a top-5
-error of 15.3%, more than 10.8 percentage points lower than that of the runner up. The original paper's primary result
-was that the depth of the model was essential for its high performance, which was computationally expensive, but made
-feasible due to the utilization of graphics processing units (GPUs) during training.
+AlexNet competed in the ImageNet Large Scale Visual Recognition Challenge on September 30, 2012. The network achieved a
+top-5 error of 15.3%, more than 10.8 percentage points lower than that of the runner up. The original paper's primary
+result was that the depth of the model was essential for its high performance, which was computationally expensive, but
+made feasible due to the utilization of graphics processing units (GPUs) during training.
 
 [Read more](alexnet)...
 
 ![AlexNet Architecture](alexnet/images/alexnet.jpg)
 
+# VGG
+
+VGG is a classical convolutional neural network architecture. It was based on an analysis of how to increase the depth
+of such networks. The network utilises small 3 x 3 filters. Otherwise, the network is characterized by its simplicity:
+the only other components being pooling layers and a fully connected layer.
+
+[Read more](vgg)...
+
+![VGG Architecture](vgg/images/vgg.jpg)
+
 ## Datasets
 
 ### MNIST
 
-The MNIST database of handwritten digits, has a training set of 60000 examples, and a test set of 10000 examples.
-It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
+The MNIST database of handwritten digits, has a training set of 60000 examples, and a test set of 10000 examples. It is
+a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image.
 
 ![MNIST Sample](images/mnist_sample.jpg)
 
 ### CIFAR-10
 
-The CIFAR-10 dataset consists of 60000 32x32 color images in 10 classes, with 6000 images per class.
-There are 50000 training images and 10000 test images.
+The CIFAR-10 dataset consists of 60000 32x32 color images in 10 classes, with 6000 images per class. There are 50000
+training images and 10000 test images.
 
 ![CIFAR-10 Sample](images/cifar_10_sample.jpg)
 
 ## Pre-trained Models
 
-You can download pre-trained models from [this page](https://github.com/amir-saniyan/KerasNets/releases/tag/pre-trained-models):
+You can download pre-trained models
+from [this page](https://github.com/amir-saniyan/KerasNets/releases/tag/pre-trained-models):
 
 * [Download LeNet-5 Pre-trained Model](https://github.com/amir-saniyan/KerasNets/releases/download/pre-trained-models/lenet_5.zip)
 * [Download AlexNet Pre-trained Model](https://github.com/amir-saniyan/KerasNets/releases/download/pre-trained-models/alexnet.zip)
+* [Download VGG Pre-trained Model](https://github.com/amir-saniyan/KerasNets/releases/download/pre-trained-models/vgg.zip)
 
 ## License
 
@@ -77,5 +89,6 @@ SOFTWARE.
 
 * LeNet-5: http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf
 * AlexNet: https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+* VGG: https://arxiv.org/abs/1409.1556v6
 * MNIST Dataset: http://yann.lecun.com/exdb/mnist/
 * CIFAR-10 Dataset: https://www.cs.toronto.edu/~kriz/cifar.html
